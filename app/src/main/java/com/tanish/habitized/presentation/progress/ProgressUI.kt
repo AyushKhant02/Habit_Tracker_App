@@ -1,0 +1,29 @@
+package com.tanish.habitized.presentation.progress
+
+import com.tanish.habitized.domain.model.Goal
+import com.tanish.habitized.domain.model.Habit
+import com.tanish.habitized.domain.model.HabitProgress
+import java.time.LocalDate
+
+data class ProgressUI(
+    val date : LocalDate = LocalDate.now(),
+    val selectedOption : Options = Options.Weekly,
+    val WeeklyDateRange : List<LocalDate> = emptyList(),
+    val OverAllDateRange : List<LocalDate> = emptyList(),
+    val selectedGoal : Goal? = null,
+    val showedHabits : List<HabitWithWeeklyAndOverallProgress> = emptyList(),
+    val habits : List<HabitWithWeeklyAndOverallProgress> = emptyList(),
+    val goals : List<Goal> = emptyList()
+)
+
+
+data class HabitWithWeeklyAndOverallProgress(
+    val habit : Habit,
+    val WeeklyProgresses : List<HabitProgress>,
+    val OverallProgresses : List<HabitProgress>
+)
+
+enum class Options{
+    Weekly,
+    Overall
+}

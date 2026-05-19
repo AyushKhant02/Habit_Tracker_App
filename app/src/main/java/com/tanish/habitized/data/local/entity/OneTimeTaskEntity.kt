@@ -1,0 +1,17 @@
+package com.tanish.habitized.data.local.entity
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import java.time.LocalDate
+import java.time.LocalTime
+import java.util.UUID
+
+@Entity(tableName = "one_time_tasks")
+data class OneTimeTaskEntity(
+    @PrimaryKey val taskId: UUID=UUID.randomUUID(),
+    val title :String,
+    val isCompleted : Boolean = false,
+    val date : LocalDate,
+    val reminder_time :LocalTime?
+)
+

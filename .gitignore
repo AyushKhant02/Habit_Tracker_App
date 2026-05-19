@@ -1,0 +1,49 @@
+# Android Studio / IntelliJ
+*.iml
+.gradle/
+.kotlin/
+local.properties
+/.idea/
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Mac system files
+.DS_Store
+
+# Build folders
+/build/
+/captures/
+/app/build/
+
+# External native build folders
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.keystore
+*.jks
+
+# APKs and bundles
+*.apk
+*.aab
+*.ap_
+
+# Crashlytics and Firebase
+crashlytics-build.properties
+google-services.json
+app/google-services.json
+
+# Logs and temporary files
+*.log
+*.lock
+*.tmp
+
+# Environment variables
+.env
+
+# Others
+local.properties
