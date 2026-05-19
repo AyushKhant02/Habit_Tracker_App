@@ -9,8 +9,6 @@ A modern and minimalist habit tracker built with Jetpack Compose — designed to
 
 <br/>
 
-[![Follow on X](https://img.shields.io/badge/X-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/HabitizedApp)
-[![Creator](https://img.shields.io/badge/Creator-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/diprssn)
 
 </div>
 
