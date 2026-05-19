@@ -67,15 +67,3 @@ cd Habitized
 
 -Build the app
 
----
-## 🤝 Contributing
-
-We welcome contributions from anyone interested in helping to improve Habitized! Feel free to submit a pull request or open an issue if you notice any bugs or have suggestions for new features.
-
----
-
-## License
-
-This project is licensed under the GPL v3.0 License - see the [LICENSE](LICENSE) file for details.
-
-</div>
